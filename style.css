@@ -1,0 +1,345 @@
+    /*HOME PAGE WITH IMAGE TEXT OVERLAY*/
+
+.img-container {
+    width: 100%; height: 90vh; background-size: cover; 
+}
+
+.bg-banner-1 {
+    background-image: url("images/AdobeStock_193038163.jpeg"); 
+}
+
+.bg-banner-2 {
+    background-image: url("images/AdobeStock_34330388.jpeg"); 
+}
+
+.img-hover-zoom {
+    overflow: hidden; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; transition: all .5s ease-in-out;
+}
+
+.img-hover-zoom:before {
+    content: ' '; background-size: cover; background-position: center center;
+}
+
+.img-hover-zoom:hover {
+    -webkit-transform: scale(1.02); -moz-transform: scale(1.02); -o-transform: scale(1.02); -ms-transform: scale(1.02); transform: scale(1.02);
+}
+
+.img-container-one {
+    height: 470px; background-image: url("images/freveggar.jpg"); background-size: cover;
+    
+}
+
+.img-container-two {
+    height: 225px; background-image: url("images/unsplash.jpg"); background-size: cover;
+}
+
+.img-container-three {
+    height: 225px; background-image: url("images/tomatoes.jpg"); background-size: cover;
+}
+
+.img-container-four {
+    height: 470px; background-image: url("images/kidsgar.jpg"); background-size: cover;
+}
+
+.bg-program1 {
+    background-image: url("images/AdobeStock_329547901.jpeg"); background-size: cover; background-position: center center;
+}
+
+.bg-program2 {
+    background-image: url("images/farming.jpg"); background-size: cover; background-position: center center;
+}
+
+.bg-farm1 {
+    background-image: url("images/microfarms.jpg"); background-size: cover; background-position: center center;
+}
+
+.bg-farm2 {
+    background-image: url("images/fitnish-media-vAWtNQp37Ss-unsplash.jpg"); background-size: cover; background-position: center center;
+}
+
+.bg-farm3 {
+    background-image: url("images/farming.jpg"); background-size: cover; background-position: center center;
+}
+
+
+.bg-donate {
+    background-image: url("images/kidsgardening.jpg"); background-size: zoom;  background-position: center left;
+}
+
+.img-container .banner-text {
+    position: absolute;  margin-left: 40px;
+}
+
+
+.banner-text span {
+    position: absolute; margin: 70px 0px 0px 20px; color: white; font-size: 60px; line-height: 55px; background-color: rgb(34,139,34,.5);
+    padding: 20px;
+}
+
+.banner-text a {
+    position: absolute; color: white; font-size: 20px; padding: 20px; margin-left: 20px; top: 400px; width: 360px;
+}
+
+.img-container-one span {
+    position: absolute; margin: 70px 0px 0px 20px; color: white; font-size: 60px; line-height: 50px;
+}
+
+.img-container-two span {
+    position: absolute; margin: 70px 0px 0px 20px; color: white; font-size: 40px; line-height: 50px;
+}
+
+.img-container-three span {
+    position: absolute; margin: 70px 0px 0px 20px; color: white; font-size: 40px; line-height: 50px;
+}
+
+.img-container-four span {
+    position: absolute; margin: 70px 0px 0px 20px; color: white; font-size: 60px; line-height: 50px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-350 {
+    height: 350px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.bg-partners {
+    font-family: 'Trebuchet MS', sans-serif; background-color: rgba(243, 202, 21, 0.774);
+}
+
+.head-img {
+    width: 1440px; height: 715px; margin: 0px 0px 0px -15px;
+}
+
+.garlic-img {
+    width: 718px; height: 676px; margin: 0px 0px 0px -15px;
+}
+
+.tomatoe-img {
+    width: 714px; height: 333px; margin: -25px 0px 0px -25px;
+}
+
+.carrots-img {
+    width: 714px; height: 333px; margin: -25px 0px 0px -25px;
+}
+
+.garden-img {
+    width: 714px; height: 673px; margin: -0px 0px 0px -12px;
+}
+
+    /*.rounded-circle{
+    margin: -5px 2px 5px 40px;  border: 0px solid red;  height: 200px;  width: 350px;
+    }*/
+
+    /*FOOTER*/
+
+.row6 {
+    border: 0px solid red; margin: -10px 0px 0px 0px; height: 250px; background: #313031; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; color: aliceblue; padding: 50px 0px 0px 180px;
+}
+
+.row-6b {
+    margin: -325px 0px 0px -20px; padding: 50px 0px 0px 0px;
+}
+
+.social-icons {
+    width: 65px;
+}
+
+    /*PROGRAM PAGE*/
+/*
+div.row7 {
+    border: 2px solid red;  margin: 0px 0px 10px 0px; height: 687px;
+}
+
+div.row8 {
+    border: 2px solid red; margin: 0px 0px 10px 0px;  height: 687px;
+}
+
+div.relative2 {
+    position: relative; width: 710px; height: 670px; border: 1px solid rgb(255, 0, 200); margin: 5px 0px 0px 5px;
+}
+
+div.absolute3 {
+    position: absolute; width: 710px; height: 670px; border: 1px solid rgb(255, 0, 200);margin: -670px 0px 0px 720px;
+}
+
+div.row9 {
+    border: 2px solid red; margin: 0px 0px 10px 0px; height: 687px;
+}
+
+div.relative4 {
+    position: relative; width: 710px; height: 670px; border: 1px solid rgb(255, 0, 200); margin: 5px 0px 0px 5px;
+}
+
+div.absolute5 {
+    position: absolute; width: 710px; height: 670px;border: 1px solid rgb(255, 0, 200); margin: -670px 0px 0px 720px;
+}
+*/
+    /*THE FARM PAGE*/
+
+div.row10 {
+    border: 2px solid red; margin: 0px 0px 10px 0px; height: 687px;
+}
+
+div.relative6 {
+    position: relative; width: 1430px; height: 670px; border: 1px solid rgb(255, 0, 200); margin: 5px 0px 0px 5px;
+}
+
+div.row11 {
+    border: 2px solid red; margin: 0px 0px 10px 0px; height: 687px;
+}
+
+div.relative7 {
+    position: relative; width: 1430px; height: 670px; border: 1px solid rgb(255, 0, 200); margin: 5px 0px 0px 5px;
+}
+
+div.row12 {
+    border: 2px solid red; margin: 0px 0px 10px 0px; height: 687px;
+}
+
+div.relative8 {
+    position: relative; width: 1430px; height: 670px; border: 1px solid rgb(255, 0, 200); margin: 5px 0px 0px 5px;
+}
+
+    /*WORKSHOP PAGE*/
+
+div.row13 {
+    border: 2px solid red; margin: 0px 0px 10px 0px; height: 687px;
+}
+
+div.relative9 {
+    position: relative; width: 914px; height: 100px; border: 1px solid rgb(255, 0, 200); margin: 5px 0px 0px 5px;
+}
+
+div.relative10 {
+    position: relative; width: 914px; height: 114px; border: 1px solid rgb(255, 0, 200); margin: 1px 0px 0px 5px;
+}
+
+div.absolute10 {
+    position: absolute; border: 1px solid rgb(255, 0, 200); height: 100px; width: 515px; margin: -675px 0px 0px 920px;
+}
+
+div.absolute11 {
+    position: absolute; border: 1px solid rgb(255, 0, 200); height: 574px; width: 515px; margin: -574px 0px 0px 920px;
+}
+
+    /*DONATE PAGE and IMAGE*/
+/*
+div.row14 {
+    border: 0px solid red; margin: 0px 0px 10px 0px; height: 1200px;
+}
+
+div.relative11 {
+    position: relative; width: 780px; height: 1336px; border: 0px solid rgb(255, 0, 200); margin: 5px 0px 0px 5px; background-color: white;
+}
+
+div.absolute12 {
+    position: absolute;  width: 585px; height: 1335px; border: 0px solid rgb(255, 0, 200); margin: -1278px 0px 0px 825px;
+}
+
+.btn-lg {
+    position: relative; display: inline; margin: 10px 0px 10px 70px; padding: 0px 5px 0px 5px; border: 1px solid green; width: 300px;
+}
+
+.one {
+    position: absolute; display: inline; margin: 10px 0px 10px 1px;  padding: 0px 5px 0px 5px; border: 1px solid green; width: 300px;
+}
+
+.btn-outline-primary {
+    position: relative;  display: inline; margin: 10px 10px 10px 25px; padding: 5px 10px 5px 10px;
+}
+
+.kidsGar-img {
+    width: 650px; height: 1337px; margin: -27px 0px 0px -75px;
+}
+*/
+    /*MEDIA*/
+/*
+div.row15 {
+    border: 2px solid red;  margin: 0px 0px 10px 0px; height: 687px;
+}
+
+div.relative13 {
+    position: relative; width: 1430px; height: 340px; border: 1px solid rgb(255, 0, 200); margin: 1px 0px 0px 5px;
+}
+
+div.absolute14 {
+    position: relative; width: 1430px;  height: 340px; border: 1px solid rgb(255, 0, 200); margin: 1px 0px 0px 5px;
+}
+*/
+
+    /*FORM PERSONAL INFORMATION SECTION*/
+
+.form-row {
+    border: 0px solid blue; margin: 5px 0px 5px -5px; padding: 25px 20px -10px -10px;
+}
+
+.form-group {
+    border: 0px solid pink; margin: 0px 0px 10px 0px; padding: 25px 20px -10px -10px;  position: relative; display: inline;
+}
+
+.form-control {
+    display: inline-block; width: 250px;  margin-right: 10px;
+}
+
+.address {
+    position: relative; display: inline; margin: 0px 100px 15px 0px;
+}
+
+.countrypicker {
+    margin: 10px 0px 0px 10px; padding: 5px 0px 0px 0px; border: 0px solid blue; margin: 5px 0px 5px -5px; padding: 25px 20px -10px -10px;
+}
+
+
+/*NAV AREA*/
+.partners img {
+    max-height: 72px;  margin: 40px 40px 20px 40px;
+}
+
+.media {
+    padding: 20px;
+}
+.media img {
+    width: 225px; margin-right: 30px;
+}
+
+form#donations label{
+    min-width: 100px
+}
+
+div.overlay {
+    padding: 20px; width: 50%; height: 100%; z-index: 999; color: white; overflow: hidden;
+}
+
+.overlay-green {
+    background: rgb(34,139,34, .8);
+}
+
+.overlay-blue {
+    background: rgb(34,34,139,.8);
+}
+
+.overlay-red {
+    background: rgb(139,34,34,.8);
+}
+
+.overlay-white {
+    background: rgb(255,255,255,.95);
+}
+
+.nav-item {
+    margin-left: 20px;  font-weight: bold;
+}
